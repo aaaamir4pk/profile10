@@ -1,0 +1,212 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	overflow-x:hidden;
+}
+
+.container{
+	background:#00f;
+	position:relative;
+}
+
+.bike1{
+	position:absolute;
+	top:20px;
+	right:-190px;
+	animation:bike-run1 10s infinite linear;
+}
+
+.bike-body1 img{
+	width:200px;
+}
+
+.tair1{
+	position:absolute;
+}
+
+.tair1 img{
+	width:60px;
+	animation:bike-rotate1 3s infinite linear;
+	position:relative;
+}
+
+.tair11{
+	left:155px;
+	top:122px;
+}
+
+.tair12{
+	left:12px;
+	top:122px;
+}
+
+@keyframes bike-rotate1{
+	0%{transform:rotate(-360deg);}
+	100%{transform:rotate(0deg);}
+}
+
+@keyframes bike-run1{
+	0%{transform:translatex(-1360px);}
+	100%{transform:translatex(0px);}
+}
+
+.car1{
+	position:absolute;
+	z-index:1;
+	top:60px;
+	right:-400px;
+	animation:car-run1 5s infinite linear;
+}
+
+.car-body1 img{
+	width:350px;
+}
+
+.car-tair1{
+	position:absolute;
+}
+
+.car-tair1 img{
+	width:90px;
+	animation:car-rotate1 3s infinite linear;
+	position:relative;
+}
+
+.car-tair11{
+	left:230px;
+	top:100px;
+}
+
+.car-tair12{
+	left:20px;
+	top:100px;
+}
+
+@keyframes car-rotate1{
+	0%{transform:rotate(-360deg);}
+	100%{transform:rotate(0deg);}
+}
+
+@keyframes car-run1{
+	0%{transform:translatex(-1800px);}
+	100%{transform:translatex(0px);}
+}
+
+.car2{
+	position:absolute;
+	z-index:1;
+	top:60px;
+	right:-800px;
+	animation:car-run2 10s infinite linear;
+}
+
+@keyframes car-run2{
+	0%{transform:translatex(-2500px);}
+	100%{transform:translatex(0px);}
+}
+
+.car3{
+	position:absolute;
+	z-index:1;
+	top:100px;
+	right:-800px;
+	animation:car-run3 11s infinite linear;
+}
+
+@keyframes car-run3{
+	0%{transform:translatex(-3100px);}
+	100%{transform:translatex(0px);}
+}
+
+.bike2{
+	position:absolute;
+	top:250px;
+	right:-700px;
+	margin-bottom:50px;
+	animation:bike-run2 5s infinite linear;
+	z-index:1;
+}
+
+.bike-body2 img{
+	width:200px;
+}
+
+.tair2{
+	position:absolute;
+}
+
+.tair2 img{
+	width:60px;
+	animation:bike-rotate2 3s infinite linear;
+	position:relative;
+}
+
+.tair21{
+	left:-13px;
+	top:122px;
+}
+
+.tair22{
+	left:128px;
+	top:122px;
+}
+
+.road img{
+	width:100%;
+	height:80vh;
+	background-size:100% 100%;
+}
+
+@keyframes bike-rotate2{
+	100%{transform:rotate(-360deg);}
+}
+
+@keyframes bike-run2{
+	100%{transform:translatex(-2000px);}
+	0%{top:250px;}
+	50%{top:150px;}
+	100%{top:200px;}
+}
+
+.car4{
+	position:absolute;
+	z-index:1;
+	top:250px;
+	right:-800px;
+	animation:car-run4 6.5s infinite linear;
+}
+
+.car-body4 img{
+	width:350px;
+}
+
+.car-tair4{
+	position:absolute;
+}
+
+.car-tair4 img{
+	width:90px;
+	animation:car-rotate4 3s infinite linear;
+	position:relative;
+}
+
+.car-tair41{
+	left:238px;
+	top:100px;
+}
+
+.car-tair42{
+	left:28px;
+	top:100px;
+}
+
+@keyframes car-rotate4{
+	100%{transform:rotate(-360deg);}
+}
+
+@keyframes car-run4{
+	100%{transform:translatex(-2200px);}
+}
